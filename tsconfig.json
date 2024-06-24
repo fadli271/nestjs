@@ -16,6 +16,10 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@prismaService": ["./src/common/prisma.service"],
+      "@validationService": ["./src/common/validation.service"]
+    }
   }
 }
